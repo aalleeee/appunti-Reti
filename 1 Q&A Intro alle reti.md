@@ -1,4 +1,4 @@
-#### 📌 Definire un protocollo
+#### 📌 Definire un protocollo 
 definizione di regole di comunicazione, modalità e ordine per lo scambio di messaggi tra due o più entità in comunicazione
 
 #### 📌 Si spieghi la differenza tra una rete a commutazione di circuito e una a commutazione di pacchetto
