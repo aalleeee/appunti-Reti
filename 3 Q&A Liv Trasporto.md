@@ -6,8 +6,9 @@ Slido 💻
 3. [ ] Consente il controllo della correttezza del solo payload di un segmento
 4. [ ] E' calcolato in modo che il ricevitore abbia certezza che il segmento è ricevuto correttamente quando, sommando tutte le parole di 16 bit del segmento checksum incluso, ottiene una parola di 16 bit tutti a 1
 
-##### risposte:
+<details><summary>risposte:</summary>
 2 - 4
+</details>
 
 #### 💡 Con riferimento al livello di trasporto, cosa comportano il multipiexing e il demultiplexing?
 1. [ ] Al trasmettitore: l'invio di segmenti provenienti da diverse socket sullo stesso link di rete. <br> Al ricevitore: la separazione dei segmenti a seconda della socket di destinazione, e la  consegna a tali socket
@@ -16,8 +17,9 @@ Slido 💻
 3. [ ] In UDP, la trasmissione alla stessa socket di tutti i segmenti riportanti lo stesso indirizzo IP di destinazione e la stessa porta di destinazione
 4. [ ] In TCP, la trasmissione alla stessa socket di tutti i segmenti riportanti lo stesso indirizzo IP di sorgente, la stessa porta di sorgente, lo stesso indirizzo IP di destinazione e la stessa porta di destinazione
 
-##### risposte:
+<details><summary>risposte:</summary>
 1 - 2 - 3 - 4
+</details>
 
 #### 💡 Perché il pipeling migliora l'utilizzo delle risorse di un link tra due host?
 1. [ ] Perché consente al mittente di inviare più pacchetti prima di ricevere i corrispondenti ACK 
@@ -26,9 +28,9 @@ Slido 💻
 3. [ ] Perché non satura il buffer di ricezione del mittente
 4. [ ] Perché non rimane in silenzio ad attende di ricevere un ACK per ogni pacchetto inviato
 
-##### risposte:
+<details><summary>risposte:</summary>
 1 - 4
-
+</details>
 
 
 
@@ -39,9 +41,9 @@ Slido 💻
 3. [ ] Se più connessioni si dividono lo stesso link: ogni connessione osserva esattamente lo stesso throughput 
 4. [ ] In situazioni tipiche: vengono scartati i pacchetti che trovano buffer pieni nei router, e w serve più lavoro per consegnare i segmenti -> throughput ridotto 
 
-##### risposte:
+<details><summary>risposte:</summary>
 1 - 2 - 4
-
+</details>
 
 #### 💡 Come fa un host A a chiudere una connessione TCP con l'host B?
 1. [ ] A invia un segmento con flag RST a 1
@@ -50,9 +52,9 @@ Slido 💻
 3. [ ] A invia un segmento con flag FIN a 1, B risponde con un segmento con flag FIN e ACK a 1, B invia ad A i dati rimasti, B invia FIN, A risponde con FIN+ACK 
 4. [ ] A invia un segmento con flag FIN a 1, B risponde con un segmento con flag FIN e ACK a 1, B invia FIN, A risponde con FIN+ACK 
 
-##### risposte:
+<details><summary>risposte:</summary>
 1 - 3 - 4
-
+</details>
 
 
 
@@ -64,9 +66,9 @@ Slido 💻
 3. [ ] Uno stato nel quale ogni ACK duplicato ricevuto permette di aumentare la dimensione della CWND di 1 segmento 
 4. [ ] L'operazione per cui dopo il terzo ACK duplicato si ritrasmette immediatamente il segmento puntato da tali AKC duplicati
 
-##### risposte:
+<details><summary>risposte:</summary>
 1 - 3
-
+</details>
 
 
 #### 💡 Quali affermazioni riguardo al retransimition timeout (RTO) in TCP sono corrette?
@@ -76,9 +78,10 @@ Slido 💻
 3. [ ] Se è impostato a un valore troppo alto, il mittente reagisce troppo lentamente alle perdite
 4. [ ] Se è impostato a un valore troppo basso, innalza il rischio di ritrasmissioni inutili
 
-##### risposte:
+<details><summary>risposte:</summary>
 2 - 3 - 4
-
+</details>
+  
 #### 💡 In che modo BBR cerca di migliorare le prestazioni della versione di TCP vista a lezione?
 1. [ ] Controllando la coda di trasmissione per vedere quanti segmenti vi si accumulano, e regolare di conseguenza il tasso di trasmissione, sondando poi periodicamente se ci sono cambiamenti di banda
 
@@ -86,9 +89,9 @@ Slido 💻
 3. [ ] Trasmettendo segmenti a rate ben più alto du quello supportato dal link collo di bottiglia, e utilizzando ACK negativi per capire quali pacchetti sono stati persi
 4. [ ] Usando una funzione cubica del numero di RTT per allargare o restringere la finestra di trasmissione nel tempo
 
-##### risposta:
+<details><summary>risposta:</summary>
 1
-
+</details>
 
 ####
 ---
