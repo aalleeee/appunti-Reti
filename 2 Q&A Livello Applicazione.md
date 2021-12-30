@@ -6,7 +6,7 @@ Slido 💻
 3. [ ] Perché scarica il link di accesso fornendo localmente i contenuti statici
 4. [ ] Perché scarica i contenuti dal web usando un link separato da quello di tutti gli altri host
 
-##### risposte:
+<details><summary>risposte:</summary>
 2 - 3
 </details>
 
@@ -64,7 +64,7 @@ Slido 💻
 
 4. [ ] Quella ricorsiva prevede che l'host richiedente interroghi uno per uno tutti i server nella gerarchia DNS fino a quello autoritativo del dominio cercato
 
-##### risposte
+<details><summary>risposte:</summary>
 1 - 3
 </details>
 
@@ -75,7 +75,7 @@ Slido 💻
 
 4. [ ] E' il sistema con cui un browser richiede in parallelo tutti i componenti di una pagina web scaricata
 
-##### risposta
+<details><summary>risposta:</summary>
 1
 </details>
 
@@ -87,7 +87,7 @@ Slido 💻
 
 5. [ ] Perché risolve il problema del collo di bottiglia sul link di upload del server
 
-##### risposte:
+<details><summary>risposte:</summary>
 2 - 3 - 5
 </details>
 
