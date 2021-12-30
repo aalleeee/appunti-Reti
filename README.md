@@ -1,2 +1,5 @@
-# appunti-Reti
-Appunti del Corso "Reti" a.a. 2021
+# Appunti del Corso "Reti"
+Anno accademico 2021-2022
+
+Non mi assumo la responsabilità riguardo ad imprecisioni o errori.
+
