@@ -1,4 +1,90 @@
-#### 📌 Definire un protocollo 
+#### 💡 Nella rete Internet, gli host si trovano:
+1. [ ] Ai confini della rete
+
+2. [ ] Nel cuore della rete
+
+3. [ ] Sia ai confini che nel cuore della rete
+
+<details><summary>risposta:</summary>
+1
+</details>
+
+#### 💡 Nella commutazione di circuito, le risorse di rete sono
+1. [ ] Condivise
+
+2. [ ] Dedicate per i singoli utenti / flussi di dati
+3. [ ] Dedicate solo nella parte di rete di accesso
+
+<details><summary>risposta:</summary>
+2
+</details>
+
+#### 💡 Tutti i link di una rete a commutazione di circuito hanno capacità pari a 480 kbps, e sono suddivisi in 15 slot/sec. tramite TDM. L'impostazione della chiamata richiede 200ms. Quanto tempo occorre per inviare un file di 320.000 bit dall'host A all'host B?
+1. [ ] 1,2 sec.
+
+2. [ ] 10 sec.
+3. [ ] 10,2 sec.
+
+<details><summary>risposta:</summary>
+3
+</details>
+
+#### 💡 Se una rete a commutazione di pacchetto è sottoposta a basso carico, quale dei seguenti componenti del ritardo si può considerare trascurabile?
+1. [ ] dproc
+
+2. [ ] dprop
+3. [ ] dqueue
+4. [ ] dtrans
+
+<details><summary>risposta:</summary>
+3
+</details>
+
+#### 💡 Il throughput end-to-end è vincolato
+1. [ ] dal collegamento con capacità maggiore
+
+2. [ ] dal collegamento con capacità inferiore
+3. [ ] dalla capacità media sul percorso
+
+<details><summary>risposta:</summary>
+2
+</details>
+
+#### 💡 Quale livello della pila TCP/IP fornisce la connessione tra processi applicativi?
+1. [ ] Applicazione
+
+2. [ ] Trasporto
+3. [ ] Rete
+4. [ ] Link
+
+<details><summary>risposta:</summary>
+2
+</details>
+
+#### 💡 Quale livello della pila TCP/IP fornisce l'instradamento dei pacchetti attraverso la rete?
+1. [ ] Applicazione
+
+2. [ ] Trasporto
+3. [ ] Rete
+4. [ ] Link
+
+<details><summary>risposta:</summary>
+3
+</details>
+
+#### 💡 La rete Internet si basa su
+1. [ ] Commutazione di pacchetto a datagrammi
+
+2. [ ] Commutazione di pacchetto a circuiti virtuali
+3. [ ] Commutazione di circuito
+
+<details><summary>risposta:</summary>
+1
+</details>
+
+---
+
+#### 📌 Definire un protocollo
 definizione di regole di comunicazione, modalità e ordine per lo scambio di messaggi tra due o più entità in comunicazione
 
 #### 📌 Si spieghi la differenza tra una rete a commutazione di circuito e una a commutazione di pacchetto
